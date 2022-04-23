@@ -2,16 +2,16 @@
 Javascript focused project
 the goal was to get the website up and running using a local API
 
-# Index page :
+# Index page 
 
 Loads the products from the API (script.js)
 
-# Product page:
+# Product page
 
 When a product is clicked, redirect to the a page dedicated to that product by loading its information with the ID in the url (product.js)
 that same page is used to choose color and quantity and send a product to the cart
 
-# Cart page:
+# Cart page
 
 Displays all the product choosen by the client, allows the client to change quantity and delete items (cart.js). that same page also has a form
 that verifies the input before the client places his/her order. once the data are checked, they're sent to the API's right url, if the request fits the api
